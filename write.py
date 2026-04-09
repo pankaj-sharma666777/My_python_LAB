@@ -1,0 +1,13 @@
+f=open("D:\\data\\funny2.txt","r")
+# f_out=open("D:\\data\\funny2_wc.txt","w")
+# f.write("\ni love php \nilove swift")
+# print(f.read())
+for line in f:
+    tokens=line.split(' ')
+    print(tokens)
+    print(type(tokens))
+    print(str(tokens))
+    # f_out.write(line+" wordcount:"+str(len(tokens)))
+    # print(len(tokens))
+f.close()
+# f_out.close()
