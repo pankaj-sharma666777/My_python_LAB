@@ -4,6 +4,6 @@ def fib():
         yield a 
         a , b = b , a+b
 for f in fib():
-    if f>50:
+    if f>100:
         break
     print(f)        
